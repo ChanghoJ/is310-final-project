@@ -15,7 +15,7 @@ I want to figure out in data how outside of Korea actually saw events going on i
 
 The day I had a meeting with Professor, she gave me excellent examples and sources that visualized and sorted data. Two examples are from _ThePudding_, 
 the website that visualized data from newspapers in the United States. 
-One webpage the professor showed me is [which countries were most mentioned in journalism](/ "https://pudding.cool/2018/12/countries/") of the U.S. by a year since the 1900s. 
+One webpage the professor showed me is **[which countries were most mentioned in journalism]("https://pudding.cool/2018/12/countries/")** of the U.S. by a year since the 1900s. 
 The webpage created a visual image of national flag lines that represent how frequently countries are mentioned in headlines. 
 The images are really catchy to find out how often certain countries are mentioned on a headline, but unfortunately, 
 I could not click for detail, only images exist. The second page is [A brief history of the past - 100 YEARS as told through the New York Times archives](/ "https://pudding.cool/2018/12/brief-history/"). 
