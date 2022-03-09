@@ -39,3 +39,11 @@ Next, I will focus on the explanation of data like connecting most mentioned wor
 I hope this final phase will be accomplished at least before the final presentation. 
 Lastly, I will answer the questions mentioned in ‘Final Project’ that are due May 13.
 
+
+
+
+## Citations
+
+- Blinderman, I., Diehm, J., & matic, M. o. (n.d.). A brief history of the past 100 years, as told through the New York Times Archives. The Pudding. Retrieved March 7, 2022, from https://pudding.cool/2018/12/brief-history/ 
+- Goldenberg, R. (2018, December). The world through the eyes of the US. The Pudding. Retrieved March 7, 2022, from https://pudding.cool/2018/12/countries/ 
+- The New York Times. (n.d.). The New York Times Developer Network All the APIs Fit to Post. The New York Times. Retrieved March 7, 2022, from https://developer.nytimes.com/ 
