@@ -1,1 +1,4 @@
-## HelloWorld
+## Can Data Die? Concern of Privacy
+====
+
+When I wondering around data visualization posts during week 2, blog post "Can Data Die?" drew my attention. As many tasks and untilities are digitized, spread of 'data' becomes common such as illegal movie download from U-torrent (P2P), PDF scanned e-book, or video without consent. Of course, the main character of the post, Lena Forsén's picture actually spreaded by engineers who wanted to test image for their research, which eventaully engineers won lawsuit later against copyright owner, Playboy. The spread of image seems not problematic because of the lawsuit, but the privacy concern rises here. Lena Forsén herself want to be forgotten or retired both as the model and digital image. Despite of Lena Forsén's request, her image keep flourishing on the Internet as high as 2nd frequently in 2020, according to the data visualization of the post shows. The histogram in the post gave me a clear example of possible privacy violation in digitized society.
