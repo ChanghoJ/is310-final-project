@@ -69,6 +69,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 <img width="738" alt="50s" src="https://user-images.githubusercontent.com/25918993/167953017-72f3b6ce-1783-484d-8eb0-a0a6412067b5.png">
 
 - [First Republic](https://www.britannica.com/place/South-Korea/History#ref34987) (1950s) (Hahn & Lew, 2022)
+<p>&nbsp;</p>
 According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
