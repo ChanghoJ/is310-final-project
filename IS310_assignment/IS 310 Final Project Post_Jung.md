@@ -7,6 +7,8 @@ At the first time of thinking about my final project, I had no idea what to do, 
 
 Then, how did I reach the theme of my final project, “How was Korea mentioned in the Cold War?” As mentioned at the beginning, I enjoyed some historical content before, but in addition to my interest, I just felt wonder about “would the frequent words mentioned are differed by years for Korea during the Cold War” because I also heard the old stories from my grandparents and parents in back in days of the Cold War Korea. Not only the old folk tales but the Cold War era indeed still impacting me and other relatives today. My grandfather served in the air force for 30 years, my father served in the air force military police for short time, and I served in the army for about 1 and a half years. I had a chance to visit one of the watchtowers at the frontline as a tourist, and vast excluded areas are separating the north and the south by river, forest, landmines, and concrete bunkers. During the armed service, my unit often practiced Defense ready Condition (DEFCON) drill in the preparation for war with North Korea, from level 4 (caution) to level 1 (total war). Of course, the armed tension between the North and the South is far less likely to become a war today, but my curiosity about the mood of the Cold War becomes larger than before the armed service.
 
+
+<img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
 Ok, this is how I eventually decided to analyze text frequency on the journal articles during Cold War Korea. To accomplish my text analysis project, I needed to find news article datasets that are far back to the 1950s. Thankfully, Professor LeBlanc introduced the NYT API that contains news articles that I need for the time frame between the 1950s to 1991. 
 
 - First, as we learned during the “Introduction to APIs” class, to call the old articles from NYT API, I needed to receive the API key for calling from the website. 
@@ -14,7 +16,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 - Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
 
 - Third, because I need as much data as possible, I used for loop to repeat the data calling code for a given amount of time. 
--- I set up hits for 201, for the API returns an error only after the 200th result. 
+- I set up hits for 201, for the API returns an error only after the 200th result. 
 - Then, I created an empty list for gathering all the called data from API. 
 - Within the for loop, I used the if statement that causes a 50-second delay on calling for every 10th iteration of code because according to NYT article search API, the code returns an error right after running 10 hits (pages). 
 - Then the URL page is assigned as an nth loop, requested data by request.get (URL assigned with API key from website), received data as JSON format, printed number of hits I can receive and how many results I received, combined results, and at last, appended data to the empty list.
