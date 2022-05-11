@@ -62,6 +62,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 - Fifth, I lowered cases and removed any stop words to filter possible disturbance of analysis. Then I stemmed words and removed further texts that are not word and nan. Sixth, finally, I plotted word frequency by 4-time frames by 50 results.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 ### Results
 ===
 
@@ -94,6 +95,7 @@ According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest a
 <p>&nbsp;</p>
 
 - Results
+
 As the results show, I could receive some historical insights within the selected words, but not as specific as expected. For example, around the 60s and 70s, there were multiple conflicts occurred around the DMZ area, and Panmunjom was one of the places. In 1976, 2 US officers were killed by the North Korean forces in Panmunjom during cutting a tree (Friedman, 2018). The country was almost at war, but I cannot find any words that are related to the incident.
 
 I did not form a data biography as Heather Krause (2017) did in one of our reading _Data Biographies: Getting to Know Your Data_ because at least I know where, who, how, and why about data, since NYT API is formed by journalism for news purpose. It seems that my text analysis method or the data gathering method had a problem. I feel the frequency result would different if combines with name entities recognition to find the frequency for specific nouns. Also, I know it is difficult or almost impossible, but I wonder what if I could collect every hit from the API. Would the result be different as I have more data now?
