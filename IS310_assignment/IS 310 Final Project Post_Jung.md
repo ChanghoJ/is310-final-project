@@ -11,5 +11,32 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 
 - First, as we learned during the “Introduction to APIs” class, to call the old articles from NYT API, I needed to receive the API key for calling from the website. 
 
-- Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. ![image](https://user-images.githubusercontent.com/25918993/167911641-7d357fb5-da84-4e04-8939-eecc581ebeff.png)
+- Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
+
+- Third, because I need as much data as possible, I used for loop to repeat the data calling code for a given amount of time. 
+- I set up hits for 201, for the API returns an error only after the 200th result. 
+- Then, I created an empty list for gathering all the called data from API. 
+- Within the for loop, I used the if statement that causes a 50-second delay on calling for every 10th iteration of code because according to NYT article search API, the code returns an error right after running 10 hits (pages). 
+- Then the URL page is assigned as an nth loop, requested data by request.get (URL assigned with API key from website), received data as JSON format, printed number of hits I can receive and how many results I received, combined results, and at last, appended data to the empty list.
+
+- Fourth, after finishing data gathering in 4-time frames (the 50s, 60s, 70s, and 80s to end), I created data frames from the gathered data and saved them as CSV files because receiving data takes a long time. 
+- I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings The Library of Missing Datasets (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning. 
+- Anyway, I need to use many texts to analyze the frequency of words by year, so I decided to combine columns that contain texts, such as abstracts, snippets, lead paragraphs, and headlines. 
+
+- Fifth, I lowered cases and removed any stop words to filter possible disturbance of analysis. Then I stemmed words and removed further texts that are not word and nan. Sixth, finally, I plotted word frequency by 4-time frames by 50 results.
+
+# First Republic (1950s) (Hahn & Lew, 2022)
+According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
+
+# Second to Third Republic (1960s)
+According to the graph, you can see Park, junta, Vietnam, demilitarized zone. The words “Park” and “junta” might reveal a military junta that was formed by the coup of military dictator Park Chung-hee, who later reign as president. “Vietnam” and “demilitarized zone” might show the military dispatch to the Vietnam War and conflicts in DMZ in Korea.
+
+Third to Fourth Republic (1970s)
+According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The words “Park,” “Chung,” and “hee” indirectly mention that President Park still reigns as dictator. “Carter” and “withdraw” were possibly mentioned by the President of the United States Jimmy Carter and some policies went over for the withdrawal of US forces in Korea.
+
+Fifth to Sixth Republic (1980s to 1991)
+According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest are revealed. The words “Chun,” “doo,” and “hwan” reveal the dictator President Chun Doo-hwan, who reigns in power with the military coup. “Protest” might refer to one the Gwangju democratic protest and the June Democratic Protest, in which the first protest was suppressed brutally and the second protest eventually lead to full democratization. “Olympic” and “Soviet” probably refer 1988 Olympics in Seoul and the end of the Cold War in 1991.
+
+As the results show, I could receive some historical insights within the selected words, but not as specific as expected. For example, around the 60s and 70s, there were multiple conflicts occurred around the DMZ area, and Panmunjom was one of the places. In 1976, 2 US officers were killed by the North Korean forces in Panmunjom during cutting a tree (Friedman, 2018). The country was almost at war, but I cannot find any words that are related to the incident.
+
 
