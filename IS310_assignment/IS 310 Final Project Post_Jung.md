@@ -8,6 +8,26 @@ At the first time of thinking about my final project, I had no idea what to do, 
 Then, how did I reach the theme of my final project, “How was Korea mentioned in the Cold War?” As mentioned at the beginning, I enjoyed some historical content before, but in addition to my interest, I just felt wonder about “would the frequent words mentioned are differed by years for Korea during the Cold War” because I also heard the old stories from my grandparents and parents in back in days of the Cold War Korea. Not only the old folk tales but the Cold War era indeed still impacting me and other relatives today. My grandfather served in the air force for 30 years, my father served in the air force military police for short time, and I served in the army for about 1 and a half years. I had a chance to visit one of the watchtowers at the frontline as a tourist, and vast excluded areas are separating the north and the south by river, forest, landmines, and concrete bunkers. During the armed service, my unit often practiced [Defense ready Condition (DEFCON)](https://militarybase.net/defense-ready-condition-defcon-levels/) drill in the preparation for war with North Korea, from level 4 (caution) to level 1 (total war). Of course, the armed tension between the North and the South is far less likely to become a war today, but my curiosity about the mood of the Cold War becomes larger than before the armed service.
 
 
+![Ippdae](https://user-images.githubusercontent.com/25918993/167962243-667347be-f7ea-434d-81b9-b839fed95d09.jpg)
+
+- The day I get into basic combat training (BCT). I couldn't even feel a taste, probably the worst day of my life.ㅠ
+<p>&nbsp;</p>
+
+![graduation](https://user-images.githubusercontent.com/25918993/167962242-62d38c19-7b5e-4a5b-b17b-7a11f05efa74.jpg)
+
+- Graduated from BCT, my beret seems really odd
+<p>&nbsp;</p>
+
+![meeting](https://user-images.githubusercontent.com/25918993/167962245-0c8ae0be-d30c-4528-ae20-559118274f93.jpg)
+
+- Meeting with parent in duty station
+<p>&nbsp;</p>
+
+![discharge](https://user-images.githubusercontent.com/25918993/167962239-e905b7c2-cfe5-4912-b638-a7bf7cea9db1.jpg)
+- Discharge! One of best day of my life.ㅎ
+<p>&nbsp;</p>
+
+
 <p>&nbsp;</p>
 <img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
 <img width="1050" alt="NYT API search" src="https://user-images.githubusercontent.com/25918993/167952960-62335c88-6db9-4388-b5eb-aec5cc0f50b9.png">
