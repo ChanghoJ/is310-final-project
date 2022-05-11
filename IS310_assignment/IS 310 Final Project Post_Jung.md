@@ -89,6 +89,10 @@ According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, 
 
 - Second to Third Republic (1960s)
 
+<img width="972" alt="516 revolt" src="https://user-images.githubusercontent.com/25918993/167959945-11f8919c-04f0-4424-9cfa-29c90713e038.png">
+<img width="990" alt="DMZ conflict" src="https://user-images.githubusercontent.com/25918993/167959947-6e9332e4-558d-494b-81b9-78abcf934a76.png">
+<img width="932" alt="Vietnam dispatch" src="https://user-images.githubusercontent.com/25918993/167959948-61fde74a-fe2e-46de-a87f-e1e7ef7e72d7.png">
+
 According to the graph, you can see Park, junta, Vietnam, demilitarized zone. The words “Park” and “junta” might reveal a military junta that was formed by the coup of military dictator Park Chung-hee, who later reign as president. “Vietnam” and “demilitarized zone” might show the military dispatch to the Vietnam War and conflicts in DMZ in Korea.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
