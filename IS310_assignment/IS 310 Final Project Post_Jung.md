@@ -40,16 +40,22 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 ### Results
 ===
 
-
+<img width="738" alt="50s" src="https://user-images.githubusercontent.com/25918993/167953017-72f3b6ce-1783-484d-8eb0-a0a6412067b5.png">
 - First Republic (1950s) (Hahn & Lew, 2022)
 According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
 
+
+<img width="661" alt="60s" src="https://user-images.githubusercontent.com/25918993/167953018-f5d48dbf-f448-4c0c-a6b1-07550d42619e.png">
 - Second to Third Republic (1960s)
 According to the graph, you can see Park, junta, Vietnam, demilitarized zone. The words “Park” and “junta” might reveal a military junta that was formed by the coup of military dictator Park Chung-hee, who later reign as president. “Vietnam” and “demilitarized zone” might show the military dispatch to the Vietnam War and conflicts in DMZ in Korea.
 
+
+<img width="796" alt="70s" src="https://user-images.githubusercontent.com/25918993/167953019-179699f4-f64f-41f4-a37b-ec265b753d19.png">
 - Third to Fourth Republic (1970s)
 According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The words “Park,” “Chung,” and “hee” indirectly mention that President Park still reigns as dictator. “Carter” and “withdraw” were possibly mentioned by the President of the United States Jimmy Carter and some policies went over for the withdrawal of US forces in Korea.
 
+
+<img width="792" alt="80s to end" src="https://user-images.githubusercontent.com/25918993/167953020-5443d095-f44d-4386-8084-daf840ba1747.png">
 - Fifth to Sixth Republic (1980s to 1991)
 According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest are revealed. The words “Chun,” “doo,” and “hwan” reveal the dictator President Chun Doo-hwan, who reigns in power with the military coup. “Protest” might refer to one the Gwangju democratic protest and the June Democratic Protest, in which the first protest was suppressed brutally and the second protest eventually lead to full democratization. “Olympic” and “Soviet” probably refer 1988 Olympics in Seoul and the end of the Cold War in 1991.
 
