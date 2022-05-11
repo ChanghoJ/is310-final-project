@@ -13,7 +13,7 @@ At the first time of thinking about my final project, I had no idea what to do, 
 Then, how did I reach the theme of my final project, “How was Korea mentioned in the Cold War?” As mentioned at the beginning, I enjoyed some historical content before, but in addition to my interest, I just felt wonder about “would the frequent words mentioned are differed by years for Korea during the Cold War” because I also heard the old stories from my grandparents and parents in back in days of the Cold War Korea. Not only the old folk tales but the Cold War era indeed still impacting me and other relatives today. My grandfather served in the air force for 30 years, my father served in the air force military police for short time, and I served in the army for about 1 and a half years. I had a chance to visit one of the watchtowers at the frontline as a tourist, and vast excluded areas are separating the north and the south by river, forest, landmines, and concrete bunkers. During the armed service, my unit often practiced [Defense ready Condition (DEFCON)](https://militarybase.net/defense-ready-condition-defcon-levels/) drill in the preparation for war with North Korea, from level 4 (caution) to level 1 (total war). Of course, the armed tension between the North and the South is far less likely to become a war today, but my curiosity about the mood of the Cold War becomes larger than before the armed service.
 
 
-![Ippdae](https://user-images.githubusercontent.com/25918993/167962243-667347be-f7ea-434d-81b9-b839fed95d09.jpg)
+![Ippdae](https://user-images.githubusercontent.com/25918993/167964025-92faaf98-009a-4796-adc6-68f589077c93.jpg)
 
 - The day I get into basic combat training (BCT). I couldn't even feel a taste, probably the worst day of my life.ㅠ
 <p>&nbsp;</p>
@@ -158,3 +158,13 @@ I did not form a data biography as Heather Krause (2017) did in one of our readi
 
 To sum up, although the final result was not as specific as I wanted, at least I feel now more familiar with one portion of digital humanities. Rather than just analyzing old articles, using computation and text analysis makes it possible to see overall aspects of old texts as a series or as one theme, just like the frequency of words presented in each timeframe of Korea from the 1950s to 1991.
 
+
+### References
+===
+
+- Anderson, H., &; Daniels, M. (2016, April). _Film Dialogue  from 2,000 screenplays, Broken Down by Gender and Age_. The Pudding. Retrieved May 10, 2022, from https://pudding.cool/2017/03/film-dialogue/
+- Friedman, U. (2018, June 10). _The 'god damn' tree that nearly brought America and North Korea to War_. The Atlantic. Retrieved May 11, 2022, from https://www.theatlantic.com/international/archive/2018/06/axe-murder-north-korea-1976/562028/
+- Hahn, B.-ho, & Lew, Y. I. (2022, May 5). _History of South Korea_. Encyclopædia Britannica. Retrieved May 9, 2022, from https://www.britannica.com/place/South-Korea/History#ref34987!
+- Krause, H. (2017, March 27). _Data Biographies: Getting to know your data_. Global Investigative Journalism Network. Retrieved May 11, 2022, from https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/ 
+- Schmidt, B. (2015, February). _Gendered Language in Teacher Reviews. Gendered Language in Teaching Evaluations_. Retrieved May 10, 2022, from http://benschmidt.org/profGender/#%7B%22database%22%3A%22RMP%22%2C%22plotType%22%3A%22pointchart%22%2C%22method%22%3A%22return_json%22%2C%22search_limits%22%3A%7B%22word%22%3A%5B%22gay%22%5D%2C%22department__id%22%3A%7B%22%24lte%22%3A25%7D%7D%2C%22aesthetic%22%3A%7B%22x%22%3A%22WordsPerMillion%22%2C%22y%22%3A%22department%22%2C%22color%22%3A%22gender%22%7D%2C%22counttype%22%3A%5B%22WordsPerMillion%22%5D%2C%22groups%22%3A%5B%22department%22%2C%22gender%22%5D%2C%22testGroup%22%3A%22D%22%7D
+- _The library of missing datasets_. MIMI ỌNỤỌHA. (n.d.). Retrieved May 10, 2022, from https://mimionuoha.com/the-library-of-missing-datasets
