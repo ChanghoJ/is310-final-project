@@ -81,7 +81,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 <img width="982" alt="United Nation Force" src="https://user-images.githubusercontent.com/25918993/167959815-b24fe36f-c3c8-4604-9d53-6a92afc0ed6a.png">
 <img width="990" alt="Eisenhower" src="https://user-images.githubusercontent.com/25918993/167959814-a59f34fe-5e65-4a1d-b396-f6b568938f64.png">
 
-According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
+According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention [Korean War between June 25, 1950. ~ July 27, 1953.](https://www.britannica.com/event/Korean-War) “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
