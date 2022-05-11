@@ -41,9 +41,13 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 <p>&nbsp;</p>
 
 
-<img width="1346" alt="dataframe" src="https://user-images.githubusercontent.com/25918993/167952956-215cd063-23a3-42b3-b4c8-f4e24b29dd53.png">
+<img width="718" alt="save as csv" src="https://user-images.githubusercontent.com/25918993/167959044-2da61c06-64cb-4e90-9331-f8b4ff48ee2f.png">
+
+<img width="255" alt="CSVs" src="https://user-images.githubusercontent.com/25918993/167954780-a74279a8-dad7-4b83-b5a3-42d96fa4388e.png">
 
 - Fourth, after finishing data gathering in 4-time frames (the 50s, 60s, 70s, and 80s to end), I created data frames from the gathered data and saved them as CSV files because receiving data takes a long time. 
+
+<img width="1346" alt="dataframe" src="https://user-images.githubusercontent.com/25918993/167952956-215cd063-23a3-42b3-b4c8-f4e24b29dd53.png">
 
 - I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings [_The Library of Missing Datasets_](https://mimionuoha.com/the-library-of-missing-datasets) (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning.
 <p>&nbsp;</p>
@@ -58,6 +62,10 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 
 
 <img width="987" alt="lower case stop word" src="https://user-images.githubusercontent.com/25918993/167952957-7c1f480c-3866-4ffa-b4a4-6b9a26198663.png">
+
+<img width="594" alt="stemming" src="https://user-images.githubusercontent.com/25918993/167952965-58bfc66c-8acc-44c0-9038-a65d9a9ccfc8.png">
+
+<img width="726" alt="visualization" src="https://user-images.githubusercontent.com/25918993/167952968-352b05d8-b920-4c59-9235-48a0f77d6c67.png">
 
 - Fifth, I lowered cases and removed any stop words to filter possible disturbance of analysis. Then I stemmed words and removed further texts that are not word and nan. Sixth, finally, I plotted word frequency by 4-time frames by 50 results.
 <p>&nbsp;</p>
