@@ -8,7 +8,7 @@ At the first time of thinking about my final project, I had no idea what to do, 
 Then, how did I reach the theme of my final project, “How was Korea mentioned in the Cold War?” As mentioned at the beginning, I enjoyed some historical content before, but in addition to my interest, I just felt wonder about “would the frequent words mentioned are differed by years for Korea during the Cold War” because I also heard the old stories from my grandparents and parents in back in days of the Cold War Korea. Not only the old folk tales but the Cold War era indeed still impacting me and other relatives today. My grandfather served in the air force for 30 years, my father served in the air force military police for short time, and I served in the army for about 1 and a half years. I had a chance to visit one of the watchtowers at the frontline as a tourist, and vast excluded areas are separating the north and the south by river, forest, landmines, and concrete bunkers. During the armed service, my unit often practiced Defense ready Condition (DEFCON) drill in the preparation for war with North Korea, from level 4 (caution) to level 1 (total war). Of course, the armed tension between the North and the South is far less likely to become a war today, but my curiosity about the mood of the Cold War becomes larger than before the armed service.
 
 
-
+<p>&nbsp;</p>
 <img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
 <img width="1050" alt="NYT API search" src="https://user-images.githubusercontent.com/25918993/167952960-62335c88-6db9-4388-b5eb-aec5cc0f50b9.png">
 
@@ -19,13 +19,15 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 <img width="1409" alt="NYT API key" src="https://user-images.githubusercontent.com/25918993/167954119-fa38aee3-2b4d-4f3d-9204-17ae760fedd3.png">
 
 - First, as we learned during the “Introduction to APIs” class, to call the old articles from NYT API, I needed to receive the API key for calling from the website. 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 <img width="1437" alt="python pandas nltk" src="https://user-images.githubusercontent.com/25918993/167952963-4104fc6c-be73-4ba2-baa7-b70085fddc69.png">
 
 - Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 <img width="1372" alt="Text mine" src="https://user-images.githubusercontent.com/25918993/167952967-f401b4a5-0134-4980-a034-381e45528b9e.png">
@@ -35,7 +37,8 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 - Then, I created an empty list for gathering all the called data from API. 
 - Within the for loop, I used the if statement that causes a 50-second delay on calling for every 10th iteration of code because according to NYT article search API, the code returns an error right after running 10 hits (pages). 
 - Then the URL page is assigned as an nth loop, requested data by request.get (URL assigned with API key from website), received data as JSON format, printed number of hits I can receive and how many results I received, combined results, and at last, appended data to the empty list.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 <img width="1346" alt="dataframe" src="https://user-images.githubusercontent.com/25918993/167952956-215cd063-23a3-42b3-b4c8-f4e24b29dd53.png">
@@ -43,19 +46,22 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 - Fourth, after finishing data gathering in 4-time frames (the 50s, 60s, 70s, and 80s to end), I created data frames from the gathered data and saved them as CSV files because receiving data takes a long time. 
 
 - I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings _The Library of Missing Datasets_ (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 <img width="1364" alt="text analysis 1" src="https://user-images.githubusercontent.com/25918993/167952966-c24b94e7-2b6a-4c21-bed6-2011c8101afb.png">
 
 - Anyway, I need to use many texts to analyze the frequency of words by year, so I decided to combine columns that contain texts, such as abstracts, snippets, lead paragraphs, and headlines. 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 <img width="987" alt="lower case stop word" src="https://user-images.githubusercontent.com/25918993/167952957-7c1f480c-3866-4ffa-b4a4-6b9a26198663.png">
 
 - Fifth, I lowered cases and removed any stop words to filter possible disturbance of analysis. Then I stemmed words and removed further texts that are not word and nan. Sixth, finally, I plotted word frequency by 4-time frames by 50 results.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ### Results
 ===
 
@@ -63,24 +69,29 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 
 - First Republic (1950s) (Hahn & Lew, 2022)
 According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <img width="661" alt="60s" src="https://user-images.githubusercontent.com/25918993/167953018-f5d48dbf-f448-4c0c-a6b1-07550d42619e.png">
 
 - Second to Third Republic (1960s)
 According to the graph, you can see Park, junta, Vietnam, demilitarized zone. The words “Park” and “junta” might reveal a military junta that was formed by the coup of military dictator Park Chung-hee, who later reign as president. “Vietnam” and “demilitarized zone” might show the military dispatch to the Vietnam War and conflicts in DMZ in Korea.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <img width="796" alt="70s" src="https://user-images.githubusercontent.com/25918993/167953019-179699f4-f64f-41f4-a37b-ec265b753d19.png">
 
 - Third to Fourth Republic (1970s)
 According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The words “Park,” “Chung,” and “hee” indirectly mention that President Park still reigns as dictator. “Carter” and “withdraw” were possibly mentioned by the President of the United States Jimmy Carter and some policies went over for the withdrawal of US forces in Korea.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <img width="792" alt="80s to end" src="https://user-images.githubusercontent.com/25918993/167953020-5443d095-f44d-4386-8084-daf840ba1747.png">
 
 - Fifth to Sixth Republic (1980s to 1991)
 According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest are revealed. The words “Chun,” “doo,” and “hwan” reveal the dictator President Chun Doo-hwan, who reigns in power with the military coup. “Protest” might refer to one the Gwangju democratic protest and the June Democratic Protest, in which the first protest was suppressed brutally and the second protest eventually lead to full democratization. “Olympic” and “Soviet” probably refer 1988 Olympics in Seoul and the end of the Cold War in 1991.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 - Results
 As the results show, I could receive some historical insights within the selected words, but not as specific as expected. For example, around the 60s and 70s, there were multiple conflicts occurred around the DMZ area, and Panmunjom was one of the places. In 1976, 2 US officers were killed by the North Korean forces in Panmunjom during cutting a tree (Friedman, 2018). The country was almost at war, but I cannot find any words that are related to the incident.
