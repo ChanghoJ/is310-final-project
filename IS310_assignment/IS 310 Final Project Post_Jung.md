@@ -11,7 +11,7 @@ Then, how did I reach the theme of my final project, “How was Korea mentioned 
 
 <img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
 <img width="1050" alt="NYT API search" src="https://user-images.githubusercontent.com/25918993/167952960-62335c88-6db9-4388-b5eb-aec5cc0f50b9.png">
-
+&nbsp;
 Ok, this is how I eventually decided to analyze text frequency on the journal articles during Cold War Korea. To accomplish my text analysis project, I needed to find news article datasets that are far back to the 1950s. Thankfully, Professor LeBlanc introduced the NYT API that contains news articles that I need for the time frame between the 1950s to 1991. 
 
 
