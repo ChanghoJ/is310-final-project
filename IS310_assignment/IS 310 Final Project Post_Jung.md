@@ -45,7 +45,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 
 - Fourth, after finishing data gathering in 4-time frames (the 50s, 60s, 70s, and 80s to end), I created data frames from the gathered data and saved them as CSV files because receiving data takes a long time. 
 
-- I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings _The Library of Missing Datasets_ (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning.
+- I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings [_The Library of Missing Datasets_](https://mimionuoha.com/the-library-of-missing-datasets) (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
@@ -68,7 +68,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 
 <img width="738" alt="50s" src="https://user-images.githubusercontent.com/25918993/167953017-72f3b6ce-1783-484d-8eb0-a0a6412067b5.png">
 
-- First Republic (1950s) (Hahn & Lew, 2022)
+- [First Republic](https://www.britannica.com/place/South-Korea/History#ref34987) (1950s) (Hahn & Lew, 2022)
 According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -96,9 +96,9 @@ According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest a
 
 - Results
 
-As the results show, I could receive some historical insights within the selected words, but not as specific as expected. For example, around the 60s and 70s, there were multiple conflicts occurred around the DMZ area, and Panmunjom was one of the places. In 1976, 2 US officers were killed by the North Korean forces in Panmunjom during cutting a tree (Friedman, 2018). The country was almost at war, but I cannot find any words that are related to the incident.
+As the results show, I could receive some historical insights within the selected words, but not as specific as expected. For example, around the 60s and 70s, there were multiple conflicts occurred around the DMZ area, and Panmunjom was one of the places. In 1976, 2 US officers were killed by the North Korean forces in Panmunjom during cutting a tree [(Friedman, 2018)](https://www.theatlantic.com/international/archive/2018/06/axe-murder-north-korea-1976/562028/). The country was almost at war, but I cannot find any words that are related to the incident.
 
-I did not form a data biography as Heather Krause (2017) did in one of our reading _Data Biographies: Getting to Know Your Data_ because at least I know where, who, how, and why about data, since NYT API is formed by journalism for news purpose. It seems that my text analysis method or the data gathering method had a problem. I feel the frequency result would different if combines with name entities recognition to find the frequency for specific nouns. Also, I know it is difficult or almost impossible, but I wonder what if I could collect every hit from the API. Would the result be different as I have more data now?
+I did not form a data biography as Heather Krause (2017) did in one of our reading [_Data Biographies: Getting to Know Your Data_](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) because at least I know where, who, how, and why about data, since NYT API is formed by journalism for news purpose. It seems that my text analysis method or the data gathering method had a problem. I feel the frequency result would different if combines with name entities recognition to find the frequency for specific nouns. Also, I know it is difficult or almost impossible, but I wonder what if I could collect every hit from the API. Would the result be different as I have more data now?
 
 To sum up, although the final result was not as specific as I wanted, at least I feel now more familiar with one portion of digital humanities. Rather than just analyzing old articles, using computation and text analysis makes it possible to see overall aspects of old texts as a series or as one theme, just like the frequency of words presented in each timeframe of Korea from the 1950s to 1991.
 
