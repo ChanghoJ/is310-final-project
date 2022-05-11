@@ -14,7 +14,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 - Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
 
 - Third, because I need as much data as possible, I used for loop to repeat the data calling code for a given amount of time. 
-- I set up hits for 201, for the API returns an error only after the 200th result. 
+-- I set up hits for 201, for the API returns an error only after the 200th result. 
 - Then, I created an empty list for gathering all the called data from API. 
 - Within the for loop, I used the if statement that causes a 50-second delay on calling for every 10th iteration of code because according to NYT article search API, the code returns an error right after running 10 hits (pages). 
 - Then the URL page is assigned as an nth loop, requested data by request.get (URL assigned with API key from website), received data as JSON format, printed number of hits I can receive and how many results I received, combined results, and at last, appended data to the empty list.
