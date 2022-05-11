@@ -31,6 +31,9 @@ Then, how did I reach the theme of my final project, “How was Korea mentioned 
 ![discharge](https://user-images.githubusercontent.com/25918993/167962239-e905b7c2-cfe5-4912-b638-a7bf7cea9db1.jpg)
 - Discharge! One of best day of my life.ㅎ
 <p>&nbsp;</p>
+
+- Anyway, although I served for only one and a half years, it was enough time to think about how worse at the time back in the Cold War...
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ### Datasets and Method
