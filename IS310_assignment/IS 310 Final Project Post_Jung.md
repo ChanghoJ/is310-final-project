@@ -11,51 +11,74 @@ Then, how did I reach the theme of my final project, “How was Korea mentioned 
 
 <img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
 <img width="1050" alt="NYT API search" src="https://user-images.githubusercontent.com/25918993/167952960-62335c88-6db9-4388-b5eb-aec5cc0f50b9.png">
+
 Ok, this is how I eventually decided to analyze text frequency on the journal articles during Cold War Korea. To accomplish my text analysis project, I needed to find news article datasets that are far back to the 1950s. Thankfully, Professor LeBlanc introduced the NYT API that contains news articles that I need for the time frame between the 1950s to 1991. 
 
+
+
 <img width="1409" alt="NYT API key" src="https://user-images.githubusercontent.com/25918993/167954119-fa38aee3-2b4d-4f3d-9204-17ae760fedd3.png">
+
 - First, as we learned during the “Introduction to APIs” class, to call the old articles from NYT API, I needed to receive the API key for calling from the website. 
 
+
+
 <img width="1437" alt="python pandas nltk" src="https://user-images.githubusercontent.com/25918993/167952963-4104fc6c-be73-4ba2-baa7-b70085fddc69.png">
+
 - Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
 
+
+
 <img width="1372" alt="Text mine" src="https://user-images.githubusercontent.com/25918993/167952967-f401b4a5-0134-4980-a034-381e45528b9e.png">
+
 - Third, because I need as much data as possible, I used for loop to repeat the data calling code for a given amount of time. 
 - I set up hits for 201, for the API returns an error only after the 200th result. 
 - Then, I created an empty list for gathering all the called data from API. 
 - Within the for loop, I used the if statement that causes a 50-second delay on calling for every 10th iteration of code because according to NYT article search API, the code returns an error right after running 10 hits (pages). 
 - Then the URL page is assigned as an nth loop, requested data by request.get (URL assigned with API key from website), received data as JSON format, printed number of hits I can receive and how many results I received, combined results, and at last, appended data to the empty list.
 
+
+
 <img width="1346" alt="dataframe" src="https://user-images.githubusercontent.com/25918993/167952956-215cd063-23a3-42b3-b4c8-f4e24b29dd53.png">
+
 - Fourth, after finishing data gathering in 4-time frames (the 50s, 60s, 70s, and 80s to end), I created data frames from the gathered data and saved them as CSV files because receiving data takes a long time. 
 
 - I was faced with a problem here, some parts of the dataset or columns are empty. I did not know why, but as one of our readings _The Library of Missing Datasets_ (2016) mentioned, there are missing data that data might exist before but were missed for some reason or just did not exist at the beginning.
 
+
+
 <img width="1364" alt="text analysis 1" src="https://user-images.githubusercontent.com/25918993/167952966-c24b94e7-2b6a-4c21-bed6-2011c8101afb.png">
+
 - Anyway, I need to use many texts to analyze the frequency of words by year, so I decided to combine columns that contain texts, such as abstracts, snippets, lead paragraphs, and headlines. 
 
+
+
 <img width="987" alt="lower case stop word" src="https://user-images.githubusercontent.com/25918993/167952957-7c1f480c-3866-4ffa-b4a4-6b9a26198663.png">
+
 - Fifth, I lowered cases and removed any stop words to filter possible disturbance of analysis. Then I stemmed words and removed further texts that are not word and nan. Sixth, finally, I plotted word frequency by 4-time frames by 50 results.
 
 ### Results
 ===
 
 <img width="738" alt="50s" src="https://user-images.githubusercontent.com/25918993/167953017-72f3b6ce-1783-484d-8eb0-a0a6412067b5.png">
+
 - First Republic (1950s) (Hahn & Lew, 2022)
 According to the graph, you can see UN, nation, force, war, Seoul, troop, Rhee, Eisenhower. “war,” “force,” “Seoul,” and “troop” probably mention Korean War between June 25, 1950. ~ July 27, 1953. “UN” and “nation” probably referring the support of the United Nations, and the “Rhee” refers President of Korea at that time, Rhee Syng-man.
 
 
 <img width="661" alt="60s" src="https://user-images.githubusercontent.com/25918993/167953018-f5d48dbf-f448-4c0c-a6b1-07550d42619e.png">
+
 - Second to Third Republic (1960s)
 According to the graph, you can see Park, junta, Vietnam, demilitarized zone. The words “Park” and “junta” might reveal a military junta that was formed by the coup of military dictator Park Chung-hee, who later reign as president. “Vietnam” and “demilitarized zone” might show the military dispatch to the Vietnam War and conflicts in DMZ in Korea.
 
 
 <img width="796" alt="70s" src="https://user-images.githubusercontent.com/25918993/167953019-179699f4-f64f-41f4-a37b-ec265b753d19.png">
+
 - Third to Fourth Republic (1970s)
 According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The words “Park,” “Chung,” and “hee” indirectly mention that President Park still reigns as dictator. “Carter” and “withdraw” were possibly mentioned by the President of the United States Jimmy Carter and some policies went over for the withdrawal of US forces in Korea.
 
 
 <img width="792" alt="80s to end" src="https://user-images.githubusercontent.com/25918993/167953020-5443d095-f44d-4386-8084-daf840ba1747.png">
+
 - Fifth to Sixth Republic (1980s to 1991)
 According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest are revealed. The words “Chun,” “doo,” and “hwan” reveal the dictator President Chun Doo-hwan, who reigns in power with the military coup. “Protest” might refer to one the Gwangju democratic protest and the June Democratic Protest, in which the first protest was suppressed brutally and the second protest eventually lead to full democratization. “Olympic” and “Soviet” probably refer 1988 Olympics in Seoul and the end of the Cold War in 1991.
 
