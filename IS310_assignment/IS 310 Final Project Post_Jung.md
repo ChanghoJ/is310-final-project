@@ -31,7 +31,10 @@ Then, how did I reach the theme of my final project, “How was Korea mentioned 
 ![discharge](https://user-images.githubusercontent.com/25918993/167962239-e905b7c2-cfe5-4912-b638-a7bf7cea9db1.jpg)
 - Discharge! One of best day of my life.ㅎ
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
+### Datasets and Method
+==
 
 <p>&nbsp;</p>
 <img width="1440" alt="NYT API home" src="https://user-images.githubusercontent.com/25918993/167952959-9680bd68-69b4-40ff-a3c8-549a88f5079e.png">
