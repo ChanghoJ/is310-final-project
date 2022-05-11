@@ -157,7 +157,8 @@ As the results show, I could receive some historical insights within the selecte
 I did not form a data biography as Heather Krause (2017) did in one of our reading [_Data Biographies: Getting to Know Your Data_](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) because at least I know where, who, how, and why about data, since NYT API is formed by journalism for news purpose. It seems that my text analysis method or the data gathering method had a problem. I feel the frequency result would different if combines with name entities recognition to find the frequency for specific nouns. Also, I know it is difficult or almost impossible, but I wonder what if I could collect every hit from the API. Would the result be different as I have more data now?
 
 To sum up, although the final result was not as specific as I wanted, at least I feel now more familiar with one portion of digital humanities. Rather than just analyzing old articles, using computation and text analysis makes it possible to see overall aspects of old texts as a series or as one theme, just like the frequency of words presented in each timeframe of Korea from the 1950s to 1991.
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### References
 ===
