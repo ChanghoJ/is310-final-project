@@ -54,7 +54,7 @@ Ok, this is how I eventually decided to analyze text frequency on the journal ar
 <p>&nbsp;</p>
 
 
-<img width="1437" alt="python pandas nltk" src="https://user-images.githubusercontent.com/25918993/167952963-4104fc6c-be73-4ba2-baa7-b70085fddc69.png">
+<img width="1437" alt="python pandas nltk" src="https://user-images.githubusercontent.com/25918993/167964938-210562f2-0840-4c0a-828a-753484cc60b6.png">
 
 - Second, open the Python and import all the add-ons like pandas for using CSV files, requests for requesting data from a link, and NLTK for analyzing data as we learned from Introduction to Unstructured Data. 
 <p>&nbsp;</p>
