@@ -101,6 +101,9 @@ According to the graph, you can see Park, junta, Vietnam, demilitarized zone. Th
 
 - Third to Fourth Republic (1970s)
 
+<img width="809" alt="President Carter conflict" src="https://user-images.githubusercontent.com/25918993/167960115-8f867a86-f9c0-49d4-b88d-2428394a8cbb.png">
+<img width="975" alt="withdraw of USFK" src="https://user-images.githubusercontent.com/25918993/167960117-734cbbda-69a7-48ee-810b-f4e07407809e.png">
+
 According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The words “Park,” “Chung,” and “hee” indirectly mention that President Park still reigns as dictator. “Carter” and “withdraw” were possibly mentioned by the President of the United States Jimmy Carter and some policies went over for the withdrawal of US forces in Korea.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -108,6 +111,12 @@ According to the plot, we have the words Park, Chung, hee, Carter, withdraw. The
 <img width="792" alt="80s to end" src="https://user-images.githubusercontent.com/25918993/167953020-5443d095-f44d-4386-8084-daf840ba1747.png">
 
 - Fifth to Sixth Republic (1980s to 1991)
+
+<img width="985" alt="TangTang" src="https://user-images.githubusercontent.com/25918993/167960195-553c59eb-40c2-4f59-beb3-64d19d4448c7.png">
+<img width="958" alt="The other revolt 2" src="https://user-images.githubusercontent.com/25918993/167960199-8c439cc7-12d3-4ac3-9180-d4cfe3198515.png">
+<img width="983" alt="Gwangju" src="https://user-images.githubusercontent.com/25918993/167960193-91038f09-6891-4501-9ce0-9ca17b75bf1b.png">
+<img width="978" alt="Democratization" src="https://user-images.githubusercontent.com/25918993/167960192-17b55d76-5605-428d-ae40-d4bf890a78ef.png">
+<img width="985" alt="88 Olympic" src="https://user-images.githubusercontent.com/25918993/167960190-36c8fa8c-d497-4841-8c6a-976c03ccf98d.png">
 
 According to the plot, the words Chun, doo, hwan, Olympic, Soviet, and protest are revealed. The words “Chun,” “doo,” and “hwan” reveal the dictator President Chun Doo-hwan, who reigns in power with the military coup. “Protest” might refer to one the Gwangju democratic protest and the June Democratic Protest, in which the first protest was suppressed brutally and the second protest eventually lead to full democratization. “Olympic” and “Soviet” probably refer 1988 Olympics in Seoul and the end of the Cold War in 1991.
 <p>&nbsp;</p>
